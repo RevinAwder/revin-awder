@@ -2,160 +2,99 @@
 
 <head>
 
-<title> Revin Awder </title>
-
-<meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<link rel="shortcut icon" href="https://i.ibb.co/VQx3Jw9/20201206-135553.jpg">
+<title> ravin awder </title>
 
 <style>
 
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+@font-face {
+  font-family: bold;
+  src: url(bold.ttf);
+}
+
+html,body,h1,h2,h3,h4,h5,h6 {
+font-family: bold;
+}
 
 * {
-
-		margin: 0;		
-    padding: 0;
-
+		margin: 0;
+		padding: 0;
 		}	
 
 					
-
 body {
-
-      Background-image: url('https://i.ibb.co/k2znhG3/sun-sett.png');
-
-      background: black;
-
-      color: white;
-
-      background: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.555)), url("https://i.ibb.co/k2znhG3/sun-sett.png");
-
+			Background-image: url('bg.png');
       Background-repeat: no-repeat;
-
       Background-attachment: fixed;
-
       Background-size: cover;
-
       Background-position: center;
-
-      font-family: Arial;
-
 				}
 
 .pro {
-
-				border-radius: 100%;
-
-				width: 120px;
-
-				border: 3px solid black;
-
-				display: block;
-
-				margin-right: auto;
-
-				margin-left: auto;
-
-				box-shadow: 0px 0px 0px 2px white;
-
-				}
+		border-radius: 100%;
+		width: 120px;
+		border: 3px solid black;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		box-shadow: 0px 0px 0px 2px white;
+	}
 
 .img {
-
 				margin-top: 20px;
-
 				}
 
 .chip {
-
   display: inline-block;
-
   padding: 0 25px;
-
   height: 50px;
-
   font-size: 16px;
-
+  
   line-height: 50px;
-
   text-align: center;
-
   border-radius: 25px;
-
   background-color: #f1f1f1;
-
   margin-left: 50px;
-
   margin-right: 50px;
-
-  transition: 0.5s;
-	
   display: block;
+  transition: 0.3s;
+}
 
+.chip:hover {
+  color: #f1f1f1;
+  background-color: #303030;
+}
+
+.chip:active {
+  color: #f1f1f1;
+  background-color: black;
 }
 
 .link {
-
 				text-decoration: none;
-
 				color: black;
-	}
-	
-	.chip:hover {
-        box-shadow: 0px 0px 10px 3px black;
-	}
-
-.link:active {
-
-				font-size: 100px;
-
 				}
 
 .chip img {
-
+  border: 4px solid #f1f1f1;
   float: left;
-
   margin: 0 10px 0 -25px;
-
-  height: 50px;
-
-  width: 50px;
-
+  height: 42px;
+  width: 42px;
   border-radius: 50%;
-
 }
 
 .name {
-
-				font-size: 15px;
-
 				text-align: center;
-
 				color: white;
-
-				}
-
-						
-
-.footer {
-
-			 color: white;
-
-			 text-align: center;
-       border-style: ;
-
-				}							
-
+				}				
 				
+@media screen and (max-width: 500px) {
+
+  .chip{
+    width: 90%;
+  }
+
+}
 
 </style>
 
@@ -163,86 +102,59 @@ body {
 
 <body>
 
+<br>
+<br>
 <div class="img">
 
-<img class="pro" src="https://i.ibb.co/CMfbsJL/Picsart-22-12-21-20-05-37-961.jpg" alt="me">
+<img class="pro" src="logo.png" alt="me">
 
 </div>
 
 <br>
+<br>
 
-<h3 class="name"> <b> Revin Awder </b> <br>  Graphic Designer </h3>
+<h1 class="name"> <b> Ravin Awder </b> </h1>
+<h3 class="name"> Graphic Designer </h3>
 
-<a class="link" target="_blank" href="https://www.facebook.com/revin.awder1">
-<div class="chip">
+<br>
 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt="Person" width="96" height="96">
-
-  Me On Facebook 
-
+<a target="_blank" class="link" href="https://m.facebook.com/ravin.awder.1"><div class="chip">
+  <img src="fb.png" alt="Person" width="96" height="96">
+  Me on Facebook 
 </div> </a>
 
 <br>
-
-<a class="link" target="_blank" href="https://www.facebook.com/Revin-Designer-104673471494388/"><div class="chip">
-
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt="Person" width="96" height="96">
-
-  My Page On Facebook 
-
-</div> </a>
-
 <br>
 
-<a class="link" target="_blank" href="https://instagram.com/revin_awder?igshid=NGExMmI2YTkyZg=="><div class="chip">
-
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png" alt="Person" width="96" height="96">
-
-  Me On Instagram
-
+<a target="_blank" class="link" href="https://instagram.com/ravin.design_"><div class="chip">
+  <img src="ig.png" alt="Person" width="96" height="96">
+  Me on Instagram
 </div></a>
 
 <br>
+<br>
 
-<a class="link" target="_blank" href="https://instagram.com/revin_designer?igshid=MjEwN2IyYWYwYw=="><div class="chip">
-
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png" alt="Person" width="96" height="96">
-
-  My Page On Instagram
-
+<a target="_blank" class="link" href="https://www.behance.net/ravinawder"><div class="chip">
+  <img src="be.png" alt="Person" width="90" height="90">
+  Me on Behance
 </div></a>
 
 <br>
-
-<a class="link" target="_blank" href="https://www.youtube.com/channel/UCdyyoFnxg8jaA0p8NZSkDOg"><div class="chip">
-
-  <img src="https://www.vectorico.com/download/social_media/youtube-red-square.jpg" alt="Youtube" width="96" height="96">
-
-  Me On YouTube
-
-</div></a>
-	
 <br>
 
-<a class="link" target="_blank" href="http://t.me/revin_awder"><div class="chip">
-
-  <img src="tel.png" alt="Telegram" width="96" height="96">
-
-  Me On Telegram
-
+<a target="_blank" class="link" href="https://t.me/ravinawder"><div class="chip">
+  <img src="tel.png" alt="Person" width="96" height="96">
+  Me on Telegram
 </div></a>
 
 <br>
-
 <br>
 
-<div class="footer">
+<a target="_blank" class="link" href="https://ravindesigner.github.io/Xwendnga/"><div class="chip">
+  <img src="web.png" alt="Person" width="96" height="96">
+  My Website
+</div></a>
 
-<p> Created By <a href="https://www.facebook.com/ravin.awder.1/" target="_blank"> Ravin Awder </a> </p>
-
-<div>
-<br>
-	
 </body>
 
 </html>
